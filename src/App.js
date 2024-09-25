@@ -32,7 +32,7 @@ const App = () => {
   return (
     <div className="app">
       <div className="social-links">
-        <a href="https://twitter.com/youraccount" target="_blank" rel="noopener noreferrer">Twitter</a>
+        <a href="https://x.com/retardhorsecoin" target="_blank" rel="noopener noreferrer">Twitter</a>
         <a href="t.me/retardhorse" target="_blank" rel="noopener noreferrer">Telegram</a>
         <a href="https://dexscreener.com/solana/clrxq7bd96wvkjjhdtdqzqkthfok9tctdsh1qa8mado9" target="_blank" rel="noopener noreferrer">DexScreener</a>
       </div>
