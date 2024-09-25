@@ -1,0 +1,206 @@
+/* src/App.css */
+
+html, body {
+  margin: 0;
+  padding: 0;
+  height: 100%;
+  font-family: Tahoma, sans-serif;
+}
+
+.app {
+  background-image: url('/public/sticker.webp'); /* Path to your .webp image */
+  background-repeat: repeat; /* Repeats the image */
+  background-size: auto;
+  overflow-y: auto;
+}
+
+.social-links {
+  display: flex;
+  justify-content: center;
+  background-color: #c0c0c0; /* Similar to Windows XP style */
+  padding: 10px;
+  border-bottom: 2px solid #000;
+}
+
+.social-links a {
+  margin: 0 15px;
+  text-decoration: none;
+  color: #000;
+  font-weight: bold;
+}
+
+.social-links a:hover {
+  text-decoration: underline;
+}
+
+.content {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+/* XP Window Style */
+.xp-window {
+  width: 600px;
+  background-color: #c0c0c0;
+  border: 2px solid #000;
+  box-shadow: 4px 4px 8px rgba(0, 0, 0, 0.3);
+  margin-top: 20px;
+}
+
+/* Center video vertically and horizontally */
+.video-section {
+  display: flex;
+  flex-direction: column;
+}
+
+.title-bar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 8px;
+  background: linear-gradient(to bottom, #3a6ea5, #2e59a3);
+  color: white;
+  font-size: 14px;
+  font-weight: bold;
+  border-bottom: 2px solid #000;
+}
+
+.window-controls {
+  display: flex;
+  align-items: center;
+  margin-left: 0;
+}
+
+.window-controls button {
+  width: 16px;
+  height: 16px;
+  margin-left: 4px;
+  background-color: #c0c0c0;
+  border: 1px solid #000;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.window-controls .minimize:before {
+  content: '_';
+  font-size: 12px;
+  line-height: 12px;
+  color: black;
+}
+
+.window-controls .maximize:before {
+  content: '☐';
+  font-size: 10px;
+  color: black;
+}
+
+.window-controls .close {
+  background-color: red;
+  color: white;
+}
+
+.window-controls .close:before {
+  content: 'X';
+  font-size: 12px;
+  color: white;
+}
+
+/* Video Box */
+.video-box {
+  padding: 20px;
+  background-color: #fff;
+  border: 2px solid #000;
+  border-top: none;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+
+iframe {
+  max-width: 100%;
+  border-radius: 0;
+}
+
+/* Time Since Posted Section */
+.time-since-posted {
+  background-color: rgba(255, 255, 255, 0.8);
+  padding: 20px;
+  border-radius: 10px;
+  text-align: center;
+  max-width: 80%;
+  margin-top: 20px;
+}
+
+.time-since-posted h2 {
+  margin: 0 0 10px 0;
+}
+
+.time-since-posted p {
+  font-size: 20px;
+  font-weight: bold;
+  margin: 0;
+}
+
+/* Token Information Section */
+.token-info .title-bar {
+  background: linear-gradient(to bottom, #3a6ea5, #2e59a3);
+  color: white;
+  padding: 8px;
+  font-size: 14px;
+  border-bottom: 2px solid #000;
+}
+
+.token-info .content-box {
+  padding: 20px;
+  background-color: #fff;
+}
+
+.token-info h3 {
+  margin-top: 0;
+  color: #333;
+}
+
+.token-info p, .token-info ul {
+  margin: 0;
+}
+
+.token-info ul {
+  list-style: none;
+  padding-left: 0;
+}
+
+.token-info ul li {
+  padding-left: 20px;
+  margin-bottom: 10px;
+}
+
+/* Memes Section */
+.meme-section .title-bar {
+  background: linear-gradient(to bottom, #3a6ea5, #2e59a3);
+  color: white;
+  padding: 8px;
+  font-size: 14px;
+  border-bottom: 2px solid #000;
+}
+
+.meme-section .content-box {
+  padding: 20px;
+  background-color: #fff;
+}
+
+.meme-grid {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 10px;
+}
+
+.meme-grid img {
+  width: 100%;
+  height: auto;
+  border: 2px solid #000;
+}
