@@ -1,0 +1,16 @@
+{
+  "files": {
+    "main.css": "/retardedrunninghorse/static/css/main.f8d9a606.css",
+    "main.js": "/retardedrunninghorse/static/js/main.d2150b5d.js",
+    "static/js/453.f078765b.chunk.js": "/retardedrunninghorse/static/js/453.f078765b.chunk.js",
+    "static/media/sticker.webp": "/retardedrunninghorse/static/media/sticker.8794a4529ab9bb7799b6.webp",
+    "index.html": "/retardedrunninghorse/index.html",
+    "main.f8d9a606.css.map": "/retardedrunninghorse/static/css/main.f8d9a606.css.map",
+    "main.d2150b5d.js.map": "/retardedrunninghorse/static/js/main.d2150b5d.js.map",
+    "453.f078765b.chunk.js.map": "/retardedrunninghorse/static/js/453.f078765b.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.f8d9a606.css",
+    "static/js/main.d2150b5d.js"
+  ]
+}
